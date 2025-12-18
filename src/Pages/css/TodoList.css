@@ -1,0 +1,41 @@
+.todo-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+}
+
+.botton {
+    width: auto
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    gap:100px
+}
+.i{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+.space{
+    display: flex;
+    gap: 10px;
+}
+.d{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
