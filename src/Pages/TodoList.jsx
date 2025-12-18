@@ -30,7 +30,7 @@ const TodoList = () => {
     }
     const getTodo = async () => {
 
-        const res = await axios.get("/csbs/gettodo")
+        const res = await axios.get("https://todo-server-ec2-wgix.onrender.com/csbs/gettodo")
             .then((response) => {
                 setTodoArray(response.data);
             })
