@@ -8,7 +8,7 @@ import { useState } from 'react';
 import Alert from '@mui/material/Alert';
 import { MdDelete } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
-import { CheckIcon } from '@heroicons/react/solid';
+
 import './css/TodoList.css'
 
 
@@ -90,7 +90,7 @@ const TodoList = () => {
                         right: "20px",
                         zIndex: 9999,
                     }}>
-                        <Alert icon={<CheckIcon fontSize="inherit" />} severity="success">
+                        <Alert severity="success">
                             Todo has been added successfully!
                         </Alert>
                     </div>
